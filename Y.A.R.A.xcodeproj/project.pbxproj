@@ -19,6 +19,7 @@
 		CE0477A02AEDBD0D002674A6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04779F2AEDBD0D002674A6 /* NetworkManager.swift */; };
 		CE0477A22AEDCD86002674A6 /* RecipeCatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0477A12AEDCD85002674A6 /* RecipeCatalogResponse.swift */; };
 		CE0477A42AEDD13D002674A6 /* RecipeCatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0477A32AEDD13D002674A6 /* RecipeCatalogViewModel.swift */; };
+		CE9BFDB22AEE85ED00D31B70 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BFDB12AEE85ED00D31B70 /* RecipeDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		CE04779F2AEDBD0D002674A6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CE0477A12AEDCD85002674A6 /* RecipeCatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCatalogResponse.swift; sourceTree = "<group>"; };
 		CE0477A32AEDD13D002674A6 /* RecipeCatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCatalogViewModel.swift; sourceTree = "<group>"; };
+		CE9BFDB12AEE85ED00D31B70 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				CE04776F2AEDB2A9002674A6 /* RecipeCatalog.swift */,
+				CE9BFDB12AEE85ED00D31B70 /* RecipeDetailsView.swift */,
 				CE04779D2AEDB845002674A6 /* RecipeCatalogItemView.swift */,
 				CE0477A32AEDD13D002674A6 /* RecipeCatalogViewModel.swift */,
 			);
@@ -308,6 +311,7 @@
 				CE0477A22AEDCD86002674A6 /* RecipeCatalogResponse.swift in Sources */,
 				CE0477A42AEDD13D002674A6 /* RecipeCatalogViewModel.swift in Sources */,
 				CE04779C2AEDB4C5002674A6 /* Recipe.swift in Sources */,
+				CE9BFDB22AEE85ED00D31B70 /* RecipeDetailsView.swift in Sources */,
 				CE0477702AEDB2A9002674A6 /* RecipeCatalog.swift in Sources */,
 				CE0477A02AEDBD0D002674A6 /* NetworkManager.swift in Sources */,
 				CE04776E2AEDB2A9002674A6 /* Y_A_R_AApp.swift in Sources */,

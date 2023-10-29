@@ -1,8 +1,8 @@
 //
 //  Y_A_R_AUITests.swift
-//  Y.A.R.AUITests
+//  Y.A.R.A - Yet Another Recipe AppUITests
 //
-//  Created by user on 29/10/2023.
+//  Created by Gichuki on 29/10/2023.
 //
 
 import XCTest

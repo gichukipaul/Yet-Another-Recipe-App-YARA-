@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Y.A.R.A
+//  Y.A.R.A - Yet Another Recipe App
 //
-//  Created by user on 29/10/2023.
+//  Created by Gichuki on 29/10/2023.
 //
 
 import SwiftUI
@@ -14,8 +14,9 @@ struct RecipeCatalog: View {
         NavigationView {
             List {
                 ForEach(viewModel.recipes.indices, id: \.self) { index in
-                    NavigationLink(destination: Text("hERE")) {
-                        RecipeCatalogItemView(recipe: viewModel.recipes[index])
+                    let recipe = viewModel.recipes[index]
+                    NavigationLink(destination: RecipeDetailsView(recipe: recipe)) {
+                        RecipeCatalogItemView(recipe: recipe)
                     }
                     .buttonStyle(.plain)
                 }
@@ -23,7 +24,7 @@ struct RecipeCatalog: View {
             .listStyle(.plain)
             .listRowSeparator(.hidden)
             .searchable(text: $viewModel.searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: Text("Your Next Meal"))
-            .navigationTitle("MEAL LIBRARY")
+            .navigationTitle("🍟 MEALS LIBRARY")
             .navigationBarTitleDisplayMode(.large)
             .accentColor(.primary)
         }

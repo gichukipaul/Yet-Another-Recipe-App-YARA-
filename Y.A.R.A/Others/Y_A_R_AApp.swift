@@ -1,8 +1,8 @@
 //
 //  Y_A_R_AApp.swift
-//  Y.A.R.A
+//  Y.A.R.A - Yet Another Recipe App
 //
-//  Created by user on 29/10/2023.
+//  Created by Gichuki on 29/10/2023.
 //
 
 import SwiftUI

@@ -1,8 +1,8 @@
 //
 //  NetworkManager.swift
-//  Y.A.R.A
+//  Y.A.R.A - Yet Another Recipe App
 //
-//  Created by user on 29/10/2023.
+//  Created by Gichuki on 29/10/2023.
 //
 
 import Foundation
@@ -51,7 +51,7 @@ final class NetworkManager {
             }
             
             do {
-                let decodedResponse = try JSONDecoder().decode(RecipeCatalogResponse.self, from: data)
+                let decodedResponse: RecipeCatalogResponse = try JSONDecoder().decode(RecipeCatalogResponse.self, from: data)
                 
                 guard let recipes = decodedResponse.results else {
                     completion(.failure(.noData))

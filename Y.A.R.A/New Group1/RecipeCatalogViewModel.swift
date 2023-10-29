@@ -1,8 +1,8 @@
 //
 //  RecipeCatalogViewModel.swift
-//  Y.A.R.A
+//  Y.A.R.A - Yet Another Recipe App
 //
-//  Created by user on 29/10/2023.
+//  Created by Gichuki on 29/10/2023.
 //
 
 import Foundation
@@ -31,8 +31,9 @@ class RecipeCatalogViewModel: ObservableObject {
         NetworkManager.shared.searchAndGetRecipes(for: name) { result in
             switch result {
                 case .success(let recipes):
+                    let sortedRecipes = recipes.sorted { $0.rating > $1.rating }
                     DispatchQueue.main.async {
-                        self.recipes.append(contentsOf: recipes)
+                        self.recipes = sortedRecipes
                     }
                 case .failure(let error):
                     print(error)
