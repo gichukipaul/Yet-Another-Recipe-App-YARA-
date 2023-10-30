@@ -12,16 +12,12 @@ struct RecipeCatalog: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(viewModel.recipes.indices, id: \.self) { index in
-                    let recipe = viewModel.recipes[index]
-                    NavigationLink(destination: RecipeDetailsView(recipe: recipe)) {
-                        RecipeCatalogItemView(recipe: recipe)
-                    }
-                    .buttonStyle(.plain)
+            List(viewModel.recipes, id: \.self) { recipe in
+                NavigationLink(destination: RecipeDetailsView(recipe: recipe)) {
+                    RecipeCatalogItemView(recipe: recipe)
                 }
             }
-            .listStyle(.plain)
+            .listStyle(.inset)
             .listRowSeparator(.hidden)
             .searchable(text: $viewModel.searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: Text("Your Next Meal"))
             .navigationTitle("🍟 MEALS LIBRARY")
