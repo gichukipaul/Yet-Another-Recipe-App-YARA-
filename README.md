@@ -8,6 +8,11 @@ Yet Another Recipe App (YARA) is a simple and user-friendly recipe application d
 - View detailed information for each recipe, including ingredients and cooking instructions.
 - User-friendly and intuitive interface for an enhanced user experience.
 
+## Upcoming Features
+- Networking using Async-Await.
+- Pagination.
+- Endless scrolling.
+
 ## Technologies Used
 - SwiftUI: SwiftUI is used for creating the user interface, ensuring a modern and responsive design.
 - Swift: Swift is the programming language used for building the YARA app.
