@@ -7,18 +7,20 @@
 
 import Foundation
 
-
 class RecipeCatalogViewModel: ObservableObject {
+    
+    private var service: RecipeService
     @Published var recipes: [Recipe] = []
     @Published var searchText: String = "" {
         didSet {
             Task{
-               try await getRecipe(for: searchText)
+                try await getRecipe(for: searchText)
             }
         }
     }
     
-    init() {
+    init(service: RecipeService) {
+        self.service = service
         recipes = RecipeCatalogViewModel.sampleRecipes
     }
     

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RecipeCatalog: View {
-    @StateObject var viewModel = RecipeCatalogViewModel()
+    @StateObject var viewModel = RecipeCatalogViewModel(service: NetworkManager.shared)
     
     var body: some View {
         NavigationView {
