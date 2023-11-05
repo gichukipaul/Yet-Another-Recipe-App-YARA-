@@ -16,6 +16,7 @@ struct RecipeCatalog: View {
                 NavigationLink(destination: RecipeDetailsView(recipe: recipe)) {
                     RecipeCatalogItemView(recipe: recipe)
                 }
+                .listRowSeparator(.hidden)
             }
             .listStyle(.inset)
             .listRowSeparator(.hidden)

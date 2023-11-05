@@ -7,11 +7,14 @@
 
 import Foundation
 
+
 class RecipeCatalogViewModel: ObservableObject {
     @Published var recipes: [Recipe] = []
     @Published var searchText: String = "" {
         didSet {
-            getRecipe(for: searchText)
+            Task{
+               try await getRecipe(for: searchText)
+            }
         }
     }
     
@@ -19,7 +22,7 @@ class RecipeCatalogViewModel: ObservableObject {
         recipes = RecipeCatalogViewModel.sampleRecipes
     }
     
-    private func getRecipe(for name: String) {
+    private func getRecipe(for name: String) async throws {
             // Clear previous recipes
         recipes.removeAll()
         
@@ -27,18 +30,8 @@ class RecipeCatalogViewModel: ObservableObject {
             recipes =  RecipeCatalogViewModel.sampleRecipes
             return
         }
-        
-        NetworkManager.shared.searchAndGetRecipes(for: name) { result in
-            switch result {
-                case .success(let recipes):
-                    let sortedRecipes = recipes.sorted { $0.rating > $1.rating }
-                    DispatchQueue.main.async {
-                        self.recipes = sortedRecipes
-                    }
-                case .failure(let error):
-                    print(error)
-            }
-        }
+        let data = try await NetworkManager.shared.getRecipes(for: name)
+        recipes = data.sorted { $0.rating > $1.rating }
     }
 }
 

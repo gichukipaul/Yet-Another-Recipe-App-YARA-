@@ -46,10 +46,6 @@ struct RecipeCatalogItemView: View {
     }
 }
 
-
-
-
-
 struct RecipeCatalogItemView_Previews: PreviewProvider {
     static var previews: some View {
         RecipeCatalogItemView(recipe: RecipeCatalogViewModel.sampleRecipes[1])
