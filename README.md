@@ -3,6 +3,16 @@
 ## Overview
 Yet Another Recipe App (YARA) is a delightful and user-friendly recipe application designed to showcase proficiency in Swift and SwiftUI. It empowers users to explore diverse recipes, peruse detailed culinary insights, and embark on a delightful culinary journey.
 
+## UI Overview
+<div style="display:flex; justify-content:center;">
+<img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/HomePage.png" alt="Dark Mode Screenshot 1" width="240" style="margin-right: 30px;"/>
+
+<img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/SearchView.png" alt="Dark Mode Screenshot 2" width="240" style="margin-right: 30px;"/>
+
+<img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/DetailsScreen.png" alt="Dark Mode Screenshot 3" width="240" />
+</div>
+<br>
+
 ## Technologies Used
 - Networking with Async-Await: YARA adeptly interacts with remote servers, employing the latest networking capabilities.Networking using Async-Await: The app communicates with a remote server to fetch recipe data.
 - MVVM Architecture: The app leverages the Model-View-ViewModel (MVVM) design pattern to maintain a clear and modular structure.
