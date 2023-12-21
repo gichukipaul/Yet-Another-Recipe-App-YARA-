@@ -7,7 +7,7 @@
 
 import Foundation
 
-class RecipeCatalogViewModel: ObservableObject {
+final class RecipeCatalogViewModel: ObservableObject {
     
     private var service: RecipeService
     @Published var recipes: [Recipe] = []
