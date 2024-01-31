@@ -28,15 +28,14 @@ Yet Another Recipe App (YARA) is a delightful and user-friendly recipe applicati
 ## Upcoming Features
 - Pagination: Coming soon to enhance the browsing experience.
 - Endless scrolling: Stay tuned for seamless browsing that never stops.
-- Caching using SwiftData
+- Offline support and Caching using SwiftData
 - CI/CD pipeline.
 
 ## Getting Started
 Ready to embark on a culinary adventure with YARA? Just follow these simple steps:
-
-1. Clone the repository to your local machine.
-2. Fire up Xcode and open the project.
-3. Hit that build and run button to explore YARA on your iOS simulator or physical device.
+- 1. Clone the repository to your local machine.
+- 2. Fire up Xcode and open the project.
+- 3. Hit that build and run button to explore YARA on your iOS simulator or physical device.
 
 ## Contributing
 At YARA, we're excited about contributions from the community that can make the app even more amazing. If you have suggestions or would like to roll up your sleeves and contribute, please don't hesitate to open an issue or submit a pull request.
