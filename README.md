@@ -1,5 +1,4 @@
 # Yet Another Recipe App ( Y A R A )
-### UI Overview
 <div style="display:flex; justify-content:center;">
   <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/HomePage.png" alt="Dark Mode Screenshot 1" width="220" style="margin-right:     30px;"/>
 
@@ -8,6 +7,7 @@
   <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/DetailsScreen.png" alt="Dark Mode Screenshot 3" width="220" />
 </div>
 <br>
+
 ## Overview
 Yet Another Recipe App (YARA) is a delightful and user-friendly recipe application designed to showcase proficiency in Swift and SwiftUI. It empowers users to explore diverse recipes, peruse detailed culinary insights, and embark on a delightful culinary journey.
 
