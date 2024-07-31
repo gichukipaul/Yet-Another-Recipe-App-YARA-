@@ -6,7 +6,6 @@
 
   <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/DetailsScreen.png" alt="Dark Mode Screenshot 3" width="220" />
 </div>
-<br>
 
 ## Overview
 Yet Another Recipe App (YARA) is a delightful and user-friendly recipe application designed to showcase proficiency in Swift and SwiftUI. It empowers users to explore diverse recipes, peruse detailed culinary insights, and embark on a delightful culinary journey.
@@ -30,13 +29,13 @@ Yet Another Recipe App (YARA) is a delightful and user-friendly recipe applicati
 - _Offline support_ and _Caching using SwiftData_.
 - _CI/CD pipeline_.
 
-## Getting Started
+## How To Get Started
 Ready to embark on a culinary adventure with YARA? Just follow these simple steps:
 - Clone the repository to your local machine.
 - Fire up Xcode and open the project.
 - Hit that build and run button to explore YARA on your iOS simulator or physical device.
 
-## Contributing
+## How To Contribute
 At YARA, we're excited about contributions from the community that can make the app even more amazing. If you have suggestions or would like to roll up your sleeves and contribute, please don't hesitate to open an issue or submit a pull request.
 ## License
 This project is licensed under the _[MIT License](LICENSE)_.
