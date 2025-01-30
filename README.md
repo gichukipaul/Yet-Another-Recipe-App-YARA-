@@ -1,10 +1,10 @@
 # Yet Another Recipe App(YARA)
 <div style="display:flex; justify-content:center;">
-  <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/HomePage.png" alt="Dark Mode Screenshot 1" width="220" style="margin-right:     30px;"/>
+  <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/HomePage.png" alt="Dark Mode Screenshot 1" width="222" style="margin-right:     30px;"/>
 
-  <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/SearchView.png" alt="Dark Mode Screenshot 2" width="220" style="margin-right: 30px;"/>
+  <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/SearchView.png" alt="Dark Mode Screenshot 2" width="222" style="margin-right: 30px;"/>
 
-  <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/DetailsScreen.png" alt="Dark Mode Screenshot 3" width="220" />
+  <img src="https://github.com/gichukipaul/Yet-Another-Recipe-App-YARA-/blob/main/DetailsScreen.png" alt="Dark Mode Screenshot 3" width="222" />
 </div>
 
 ## Overview
@@ -13,10 +13,10 @@ Yet Another Recipe App (YARA) is a delightful and user-friendly recipe app desig
 ## Technologies Used
 - **Multi-threading using Async-Await**: YARA adeptly interacts with remote servers, employing the latest networking capabilities. Networking using Async-Await: The app communicates with a remote server to fetch recipe data.
 - **MVVM Architecture**: The app leverages the Model-View-ViewModel (MVVM) design pattern to maintain a clear and modular structure.
-- **SwiftUI**: The modern and responsive user interface is crafted using SwiftUI, ensuring an engaging and interactive user experience.
+- **SwiftUI**: SwiftUI crafts a modern and responsive user interface, ensuring an engaging and interactive user experience.
 - **Swift**: Swift is the programming language used for building the YARA app.
 - **Smooth Navigation**: SwiftUI's NavigationView facilitates effortless navigation across different screens.
-- **Data Models**: Custom data models are used to structure and represent recipe information.
+- **Data Models**: Custom data models structure and represent recipe information.
 
 ## Features
 - _Recipe Exploration_: Dive into a diverse collection of recipes and discover new culinary horizons.
